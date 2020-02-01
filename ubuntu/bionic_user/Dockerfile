@@ -2,6 +2,7 @@ FROM ubuntu:bionic
 
 ENV DEBIAN_FRONTEND noninteractive
 ENV TERM xterm
+ENV USER user
 
 RUN apt-get update && apt-get -y install sudo
 RUN useradd --create-home --shell /bin/bash user && usermod -aG sudo user

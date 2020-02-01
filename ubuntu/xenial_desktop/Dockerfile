@@ -1,4 +1,4 @@
-FROM iancolwell/xenial_user
+FROM iancolwell/ubuntu:xenial_user
 
 USER root
 
