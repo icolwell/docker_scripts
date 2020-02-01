@@ -1,4 +1,4 @@
-FROM iancolwell/bionic_user
+FROM iancolwell/ubuntu:bionic_user
 
 USER root
 
