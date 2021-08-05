@@ -15,6 +15,7 @@ RUN echo "resolvconf resolvconf/linkify-resolvconf boolean false" | debconf-set-
 RUN apt-get -y install ubuntu-minimal ubuntu-standard ubuntu-desktop
 
 RUN apt-get -y upgrade
+RUN apt-get -y remove command-not-found
 
 USER user
 WORKDIR /home/user
