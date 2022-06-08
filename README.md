@@ -11,6 +11,6 @@ They are organized like this:
 Use the build and push scripts with the repo and tag names as arguments:
 
 ```
-build_image.bash ubuntu bionic_user
-push_image.bash ubuntu bionic_user
+build_image.bash ubuntu jammy_user
+push_image.bash ubuntu jammy_user
 ```
